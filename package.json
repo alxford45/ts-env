@@ -1,0 +1,28 @@
+{
+  "name": "ts-env",
+  "version": "1.0.0",
+  "description": "flexible starting typescript env",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node ./src/index.ts",
+    "compile": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxford45/ts-env.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxford45/ts-env/issues"
+  },
+  "homepage": "https://github.com/alxford45/ts-env#readme",
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
